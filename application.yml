@@ -3,3 +3,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 title: "This is a test"
+spring:
+  datasource:
+    url: jdbc:postgressql://localhost:5432/Test
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
