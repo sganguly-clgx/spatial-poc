@@ -5,7 +5,8 @@ eureka:
 title: "This is a test"
 spring:
   datasource:
-    url: jdbc:postgressql://localhost:5432/Test
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/Test
     username: postgres
     password: password
-    driver-class-name: org.postgresql.Driver
+    
