@@ -9,4 +9,5 @@ spring:
     url: jdbc:postgresql://localhost:5432/SpatialDB
     username: postgres
     password: password
+    platform: postgis
     
