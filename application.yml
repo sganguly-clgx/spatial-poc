@@ -6,7 +6,7 @@ title: "This is a test"
 spring:
   datasource:
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/SpatialDB
+    url: jdbc:postgresql://10.70.50.15:5432/SpatialDB
     username: postgres
     password: password
        
